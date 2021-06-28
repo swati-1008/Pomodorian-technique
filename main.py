@@ -26,12 +26,9 @@ def reset_timer():
 def start_timer():
     # count_down(5 * 60)
     global reps
-    # work_sec = WORK_MIN * 60
-    # short_break_sec = SHORT_BREAK_MIN * 60
-    # long_break_sec = LONG_BREAK_MIN * 60
-    work_sec = 5
-    short_break_sec = 5
-    long_break_sec = 5
+    work_sec = WORK_MIN * 60
+    short_break_sec = SHORT_BREAK_MIN * 60
+    long_break_sec = LONG_BREAK_MIN * 60
     if reps % 2 == 1:
         print("Work Timer")
         timer.config(text = "WORK", fg = GREEN)
