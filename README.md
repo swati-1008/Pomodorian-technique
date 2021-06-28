@@ -15,5 +15,7 @@ Concepts like DYNAMIC TYPING, CANVAS WIDGETS, etc are used in the implementation
 Activate the venv environment, and run the main.py file
 
 For Linux users:
+
 source venv/bin/activate
+
 python main.py
